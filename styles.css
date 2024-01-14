@@ -7,7 +7,7 @@
   
   .navbar {
     background: #131313;
-    height: 80px;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,8 @@
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 8vh;
+    flex-wrap: wrap;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -105,6 +106,7 @@
   
   @media screen and (max-width: 960px) {
     .navbar__container {
+      flex-direction: column;
       display: flex;
       justify-content: space-between;
       height: 80px;
@@ -155,7 +157,7 @@
   
     .navbar__links {
       text-align: center;
-      padding: 2rem;
+      padding: 0.5rem 1rem;
       width: 100%;
       display: table;
     }
@@ -332,7 +334,7 @@
       margin-top: 1rem;
       font-size: 1.5rem;
     }
-    .main__content p2 {
+    .main__content p {
       margin-top: 1rem;
       font-size: 1.5rem;
     }
@@ -366,7 +368,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 100vh;
   }
   
   .services h1 {
@@ -396,6 +398,7 @@
   }
   
   .services__card {
+    display: flex;
     margin: 1rem;
     height: 100px;
     width: 400px;
@@ -403,6 +406,7 @@
     background-size: cover;
     position: relative;
     color: #fff;
+    justify-content: space-around;
   }
   
   .services__card:before {
@@ -412,25 +416,20 @@
   
   .services__card h2 {
     position: absolute;
+    margin: 1rem 0;
     top: 100px;
     left: 30px;
   }
   
   .services__card p {
     position: absolute;
-    top: 160px;
+    top: 200px;
     left: 30px;
   }
 
   .services__card p2 {
     position: absolute;
-    top: 200px;
-    left: 30px;
-  }
-  
-  .services__card p3 {
-    position: absolute;
-    top: 130px;
+    top: 170px;
     left: 30px;
   }
 
