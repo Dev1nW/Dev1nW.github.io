@@ -303,7 +303,7 @@
 }
 
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .main__container {
     display: grid;
     grid-template-columns: auto;
@@ -334,11 +334,11 @@
   }
   .main__content p2 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: .7rem;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .main__content h1 {
     font-size: 2rem;
     margin-top: 3rem;
@@ -471,27 +471,127 @@
 }
 
 @media screen and (max-width: 960px) {
+  
   .services {
-    height: 1600px;
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1900px;
   }
 
   .services h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(
+      to right,
+      #ff8177 0%,
+      #ff867a 0%,
+      #ff8c7f 21%,
+      #f99185 52%,
+      #cf556c 78%,
+      #b12a5b 100%
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 5rem;
     font-size: 2rem;
-    margin-top: 12rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .services {
-    height: 1400px;
+    margin-top: 10rem;
+    top: 100px;
   }
 
-  .services h1 {
-    font-size: 1.2rem;
+  .services__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .services__card {
-    width: 300px;
+    margin: 1rem;
+    height: 100px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+  }
+
+  .services__card:before {
+    opacity: 0.2;
+  }
+
+
+  .services__card h2 {
+    position: absolute;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    top: 100px;
+    left: 30px;
+  }
+
+  .services__card p {
+    position: absolute;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    top: 160px;
+    left: 30px;
+  }
+
+  .services__card p2 {
+    position: absolute;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    top: 200px;
+    left: 30px;
+  }
+
+  .services__card p3 {
+    position: absolute;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    top: 130px;
+    left: 30px;
+  }
+
+  .services__card button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    font-size: 1rem;
+  }
+
+  .services__card button1 {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-size: 1rem;
+  }
+
+  .services__card button:hover {
+    cursor: pointer;
+  }
+
+  .services__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
   }
 }
 
@@ -554,44 +654,6 @@
   transition: 0.3s ease-out;
 }
 
-/* Social Icons */
-.social__icon--link {
-  color: #fff;
-  font-size: 24px;
-}
-
-.social__media {
-  max-width: 1000px;
-  width: 100%;
-}
-
-.social__media--wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
-}
-
-.social__icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
-}
-
-.social__logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
 
 .website__rights {
   color: #fff;
@@ -613,10 +675,6 @@
   .footer__link--wrapper {
     flex-direction: column;
   }
-
-  .social__media--wrap {
-    flex-direction: column;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -625,4 +683,129 @@
     padding: 10px;
     width: 100%;
   }
+  .footer__link--wrapper {
+    flex-direction: column;
+    margin-top: 300px;
+  }
+  .services {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1700px;
+    }
+  
+    .services h1 {
+      background-color: #ff8177;
+      background-image: linear-gradient(
+        to right,
+        #ff8177 0%,
+        #ff867a 0%,
+        #ff8c7f 21%,
+        #f99185 52%,
+        #cf556c 78%,
+        #b12a5b 100%
+      );
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      margin-bottom: 5rem;
+      font-size: 2rem;
+      margin-top: 10rem;
+      top: 100px;
+    }
+  
+    .services__container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .services__card {
+      margin: 1rem;
+      height: 100px;
+      width: 400px;
+      border-radius: 4px;
+      margin-top: 1rem;
+      margin-bottom: 15rem;
+      background-size: cover;
+      position: relative;
+      color: #fff;
+    }
+  
+    .services__card:before {
+      opacity: 0.2;
+    }
+  
+  
+    .services__card h2 {
+      position: absolute;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      top: 100px;
+      left: 30px;
+    }
+  
+    .services__card p {
+      position: absolute;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      top: 130px;
+      left: 30px;
+    }
+  
+    .services__card p2 {
+      position: absolute;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      top: 140px;
+      left: 30px;
+    }
+  
+    .services__card p3 {
+      position: absolute;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      top: 130px;
+      left: 30px;
+    }
+  
+    .services__card button {
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      background: #f77062;
+      position: absolute;
+      top: 260px;
+      left: 30px;
+      font-size: 1rem;
+    }
+  
+    .services__card button1 {
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      background: #f77062;
+      position: absolute;
+      top: 190px;
+      left: 30px;
+      font-size: 1rem;
+    }
+  
+    .services__card button:hover {
+      cursor: pointer;
+    }
+  
+    .services__card:hover {
+      transform: scale(1.075);
+      transition: 0.2s ease-in;
+      cursor: pointer;
+    }
 }
