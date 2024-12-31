@@ -4,7 +4,7 @@ The link to the webpage can be found [here](https://dev1nw.github.io).
 
 ## Acknowledgments
 
-This site was created using code from [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber).
+This site was created based on the look of the webpage designed by [Dinesh Pandiyan](https://github.com/flexdinesh).
 
-The specific video used as reference and as a template was [HTML CSS and Javascript Website Design Tutorial - Beginner Project Fully Responsive](https://www.youtube.com/watch?v=FazgJVnrVuI&t=1771s) and the base code can be found [here](https://github.com/briancodex/html-css-website-v1/tree/master). In addition, ChatGPT was used to help fix sizing errors.
+The specific webpage design can be found [here](https://github.com/flexdinesh/blogster). In addition, ChatGPT was used to help convert to HTML and CSS.
 
