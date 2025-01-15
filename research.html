@@ -4,18 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Devin White</title>
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body class="dark">
+  <!-- Header / Navbar -->
   <header class="site-header">
     <nav class="navbar container">
-      <div class="nav-left">
-        <ul class="nav-links">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/research.html">Research</a></li>
-          <li><a href="/projects.html">Projects</a></li>
-          <li><a href="/accomplishments.html">Accomplishments</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./research.html">Research</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./accomplishments.html">Accomplishments</a></li>
+      </ul>
       </div>
 
       <div class="nav-right">
@@ -120,15 +120,15 @@
           <details class="project-details">
             <summary>
               <div class="project-left">
-                <div class="project-date">Accepted to Collaborative AI and Modelling of Humans Bridge Program @ AAAI 2025</div>
-                <a href="/research.html" target="_blank">
+                <div class="project-date">Accepted to the Collaborative AI and Modeling of Humans Bridge Program @ AAAI 2025</div>
+                <a href="https://arxiv.org/abs/2501.07502" target="_blank">
                   RbRL2.0: Integrated Reward and Policy Learning for Rating-based Reinforcement Learning
                 </a>
               </div>
             </summary>
             <div class="project-description">
               <p>
-                More information coming soon...
+                Reinforcement learning (RL), a common tool in decision making, learns policies from various experiences based on the associated cumulative return/rewards without treating them differently. On the contrary, humans often learn to distinguish from different levels of performance and extract the underlying trends towards improving their decision making for best performance. Motivated by this, this paper proposes a novel RL method that mimics humans' decision making process by differentiating among collected experiences for effective policy learning. The main idea is to extract important directional information from experiences with different performance levels, named ratings, so that policies can be updated towards desired deviation from these experiences with different ratings. Specifically, we propose a new policy loss function that penalizes distribution similarities between the current policy and failed experiences with different ratings, and assign different weights to the penalty terms based on the rating classes. Meanwhile, reward learning from these rated samples can be integrated with the new policy loss towards an integrated reward and policy learning from rated samples. Optimizing the integrated reward and policy loss function will lead to the discovery of directions for policy improvement towards maximizing cumulative rewards and penalizing most from the lowest performance level while least from the highest performance level. To evaluate the effectiveness of the proposed method, we present results for experiments on a few typical environments that show improved convergence and overall performance over the existing rating-based reinforcement learning method with only reward learning.
               </p>
             </div>
           </details>
@@ -138,15 +138,15 @@
           <details class="project-details">
             <summary>
               <div class="project-left">
-                <div class="project-date">Accepted to Collaborative AI and Modelling of Humans Bridge Program @ AAAI 2025</div>
-                <a href="/research.html" target="_blank">
+                <div class="project-date">Accepted to the Collaborative AI and Modeling of Humans Bridge Program @ AAAI 2025</div>
+                <a href="https://arxiv.org/abs/2501.07755" target="_blank">
                   Performance Optimization of Ratings-Based Reinforcement Learning
                 </a>
               </div>
             </summary>
             <div class="project-description">
               <p>
-                More information coming soon...
+                This paper explores multiple optimization methods to improve the performance of rating-based reinforcement learning (RbRL). RbRL, a method based on the idea of human ratings, has been developed to infer reward functions in reward-free environments for the subsequent policy learning via standard reinforcement learning, which requires the availability of reward functions. Specifically, RbRL minimizes the cross entropy loss that quantifies the differences between human ratings and estimated ratings derived from the inferred reward. Hence, a low loss means a high degree of consistency between human ratings and estimated ratings. Despite its simple form, RbRL has various hyperparameters and can be sensitive to various factors. Therefore, it is critical to provide comprehensive experiments to understand the impact of various hyperparameters on the performance of RbRL. This paper is a work in progress, providing users some general guidelines on how to select hyperparameters in RbRL.
               </p>
             </div>
           </details>
@@ -164,7 +164,7 @@
           <details class="project-details">
             <summary>
               <div class="project-left">
-                <div class="project-date">Accepted to Toward knowledgable Foundation Models Workshop @ AAAI 2025</div>
+                <div class="project-date">Accepted to the Toward Knowledgable Foundation Models Workshop @ AAAI 2025</div>
                 <a href="https://arxiv.org/abs/2408.15950" target="_blank">
                     Atari-GPT: Benchmarking Multimodal Large Language Models as Low-Level Policies in Atari Games
                 </a>
@@ -182,7 +182,7 @@
           <details class="project-details">
             <summary>
               <div class="project-left">
-                <div class="project-date">Accepted to The Many Facets of Preference-Based Learning @ ICML 2023</div>
+                <div class="project-date">Accepted to the Many Facets of Preference-Based Learning Workshop @ ICML 2023</div>
                 <a href="https://openreview.net/forum?id=uJrMgRbFXQ#all" target="_blank">
                   Rating-based Reinforcement Learning
                 </a>
