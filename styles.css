@@ -147,6 +147,34 @@ body {
   max-width: 700px;
 }
 
+/* Skills Section */
+.skills-section {
+  margin: 2rem 0;
+}
+
+.skills-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.skills-list {
+  list-style: none; /* Removes default bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-list li {
+  background-color: #333; /* Dark background for skill tags */
+  color: #ffffff; /* Light text */
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem; /* Ensure spacing when wrapping */
+}
+
 /* Code snippet style */
 .code-snippet {
   background-color: #222;
